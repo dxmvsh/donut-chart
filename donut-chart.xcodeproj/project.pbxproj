@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3DF0B62D2EF448005A4E52 /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DF0B52D2EF448005A4E52 /* DonutChartView.swift */; };
 		6AFF6DD32D2AD03D004348FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF6DD22D2AD03D004348FE /* AppDelegate.swift */; };
 		6AFF6DD52D2AD03D004348FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF6DD42D2AD03D004348FE /* SceneDelegate.swift */; };
 		6AFF6DD72D2AD03D004348FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF6DD62D2AD03D004348FE /* ViewController.swift */; };
-		6AFF6DDA2D2AD03D004348FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF6DD92D2AD03D004348FE /* Base */; };
 		6AFF6DDC2D2AD03F004348FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF6DDB2D2AD03F004348FE /* Assets.xcassets */; };
 		6AFF6DDF2D2AD03F004348FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF6DDE2D2AD03F004348FE /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A3DF0B52D2EF448005A4E52 /* DonutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
 		6AFF6DCF2D2AD03D004348FE /* donut-chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donut-chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFF6DD22D2AD03D004348FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFF6DD42D2AD03D004348FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6AFF6DD62D2AD03D004348FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6AFF6DD92D2AD03D004348FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AFF6DDB2D2AD03F004348FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AFF6DDE2D2AD03F004348FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AFF6DE02D2AD03F004348FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 				6AFF6DD22D2AD03D004348FE /* AppDelegate.swift */,
 				6AFF6DD42D2AD03D004348FE /* SceneDelegate.swift */,
 				6AFF6DD62D2AD03D004348FE /* ViewController.swift */,
-				6AFF6DD82D2AD03D004348FE /* Main.storyboard */,
+				6A3DF0B52D2EF448005A4E52 /* DonutChartView.swift */,
 				6AFF6DDB2D2AD03F004348FE /* Assets.xcassets */,
 				6AFF6DDD2D2AD03F004348FE /* LaunchScreen.storyboard */,
 				6AFF6DE02D2AD03F004348FE /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				6AFF6DDC2D2AD03F004348FE /* Assets.xcassets in Resources */,
 				6AFF6DDF2D2AD03F004348FE /* Base in Resources */,
-				6AFF6DDA2D2AD03D004348FE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +139,7 @@
 			files = (
 				6AFF6DD72D2AD03D004348FE /* ViewController.swift in Sources */,
 				6AFF6DD32D2AD03D004348FE /* AppDelegate.swift in Sources */,
+				6A3DF0B62D2EF448005A4E52 /* DonutChartView.swift in Sources */,
 				6AFF6DD52D2AD03D004348FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6AFF6DD82D2AD03D004348FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6AFF6DD92D2AD03D004348FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6AFF6DDD2D2AD03F004348FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +289,7 @@
 				INFOPLIST_FILE = "donut-chart/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +317,7 @@
 				INFOPLIST_FILE = "donut-chart/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
